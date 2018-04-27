@@ -1,8 +1,8 @@
 Made by Charlie Clausen
 
 This script can be run in crontab to change desktop background in a provided interval.  Tested on Ubuntu 16.04.
-It works by pulling pictures from your /home/username/Pictures/Wallpapers/ directory, so put any pictures you
-want in the rotation in there.  
+It works by pulling pictures from your directory you keep wallpapers in, so put any pictures you
+want in the rotation in there and alter the script so that it points to the directory.  
 
 To Use:
 
@@ -15,3 +15,5 @@ To Use:
         Remove the ',30' to have it change every hour or review crontab syntax to set your own schedule.
 
     3. Make sure the script has executable permissions with '$ chmod a+x path/to/script.py'
+
+    4. Alter line 18 of the script to match the full path to where your wallpapers are.
