@@ -48,9 +48,9 @@ def main():
             index = i+1
             break
 
-    # Something went wrong
+    # Something went wrong, set background to first in list so job can recover next time
     if index == -1:
-        return
+        index = 0
 
     # Set the next wallpaper in line
     if index >= num_wallpapers:
